@@ -3,7 +3,7 @@ import jsdom from 'jsdom';
 import fs from 'fs';
 
 describe('Our first test', () => {
-  it('should pass', (done) => {
+  it('should pass', () => {
     expect(true).to.equal(true);
   });
 });
@@ -18,4 +18,4 @@ describe('index.html',() => {
        window.close();
     });
   })
-})
+});
